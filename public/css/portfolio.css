@@ -1,0 +1,1597 @@
+
+body {
+  margin:0;
+  padding:0;
+  font-family: roboto;
+  color: #777777;
+  background-color: #FFFFFF; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+div#header{
+  width:100%;
+  height:20%;
+  position:fixed;
+  z-index:100;
+  background-color:#FFF;
+}
+
+
+
+
+div#aboutMEheader{
+  width:100%;
+  height:74px;
+  position:fixed;
+  z-index:100;
+  background-color:#FFF;
+} 
+
+
+div#skillsHeader{
+  width:100%;
+  height:58px;
+  position:fixed;
+  z-index:100;
+  background-color:#FFF;
+} 
+
+
+
+.headerBox{
+  width:180px;
+  border: 2px solid;
+  margin-left:550px; 
+  font-family: roboto; 
+
+}
+
+.hireMeheaderBox{
+  width:150px;
+  border: 2px solid #0000e6;
+  margin: auto;
+  font-family: roboto; 
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  color: #000033;
+}
+
+.aboutMeheaderBox{
+  width:140px;
+  border: 2px solid #0000e6;
+  margin: auto;
+  font-family: roboto; 
+  text-align: center;
+  padding: 8px;
+  font-size: 17px;
+  color:#000033;
+}
+
+
+.portfolioheaderBox{
+  width:180px;
+  border: 2px solid #0000e6;
+  margin: auto;
+  font-family: roboto; 
+  text-align: center;
+  padding: 1px;
+  font-size: 20px;
+  color: #000033;
+}
+
+
+.blogheaderBox{
+  width:200px;
+  border: 2px solid #0000e6;
+  margin: auto;
+  font-family: roboto; 
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  color:#000033;
+
+}
+
+.skillsheaderBox{
+  width:150px;
+  border: 2px solid #0000e6;
+  margin: auto;
+  font-family: roboto; 
+  text-align: center;
+  padding: 1px;
+  font-size: 20px;
+  color:#000033;
+}
+
+
+
+
+div#content{
+  background-color:#111;
+  width:100%;
+  height:100%;
+  position:absolute;
+  left:0;
+}
+
+#columns-container {
+  position:relative;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.column {
+  position: absolute;
+}
+
+.column-a {
+  background-color: #FFF;
+  top: 20%;
+  bottom: 0;
+  right: 50%;
+  left: 0;
+}
+
+.h2ContactMe{
+  margin-left: 28px; 
+  margin-bottom: 9px; 
+  margin-top: 23px;
+  font-size: 25px;
+}
+
+
+.h2LetsFun{
+  margin-left: 5px; 
+  margin-bottom: 9px; 
+  margin-top: 23px;
+  font-size: 25px;
+}
+
+
+
+
+
+.aboutMe_column-a {
+  background-color: #FFF;
+  top: 11%;
+  bottom: 0;
+  right: 80%;
+  left: 0;
+}
+
+
+.column-b {
+  background-color: #FFF;
+  top: 20%;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+}
+
+.aboutMe_column-b {
+  background-color: #FFF;
+  top: 11%;
+  bottom: 0;
+  right: 0;
+  left: 20%;
+}
+
+
+
+
+
+.inputSize{
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 20px;
+  border-width: 0 0 1px;
+
+}
+
+
+
+
+.signUpinputSize{
+  width: 480px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+.wrapper{
+  display: flex;
+  position: relative;
+  width:80%;
+}
+
+.wrapper .sidebar{
+  position: fixed;
+  width: 20%;                    
+  height: 100%;
+  background: #2f3742;
+  font-size: 14px;
+  padding-bottom:30px;
+}
+
+.wrapper .sidebar h2{
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.wrapper .sidebar h4{
+  text-align: center;
+  margin-bottom:3px;
+  margin-top: -20px;
+  font-size: 20px;
+  color: #8533ff;
+  font-family: roboto;
+  font-weight: normal;
+
+}
+
+.wrapper .sidebar ul li{
+  padding: 8px;
+  list-style-type: none;
+  color: #fdfefe;
+  font-family: roboto;
+
+
+}
+
+.wrapper .sidebar ul li a{
+  color: white;
+  display:block;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li:hover{
+  background:;
+
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #3333ff;
+}
+
+
+.wrapper .indexmain_content{
+  width:100%;
+  margin-left: 370px;
+  color: white;
+  line-height: 60px;
+  margin-top: 200px;
+}
+
+.wrapper .sideBarFooter{
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  padding-bottom: 15px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height:300px;
+  border-style: solid;
+  padding: 3px;
+  border-width: thin;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: white;
+  color: grey;
+}
+
+.fa-snapchat{
+ background: white;
+ color: grey;
+}
+
+
+.fa-linkedin {
+  background: white;
+  color: grey;
+}
+
+.fa-twitter {
+  background: white;
+  color: grey;
+}
+
+.fa-pinterest {
+ background: white;
+ color: grey;
+}
+
+
+.hireMe_column {
+ float: left;
+ width: 33.33%;
+ padding: 10px;
+ height: 600px;
+ line-height: 25px;
+
+}
+
+
+.portfolio_column {
+ float: left;
+ width: 33.33%;
+ margin-top: 0%; 
+ padding: 20px;
+ height: 730px;
+
+}
+
+.blog_column {
+ float: left;
+ width: 33.33%;
+ margin-top: 0%; 
+ padding: 20px;
+ height: 564px;
+
+}
+
+.resume_column1 {
+ float: left;
+ width: 45%;
+ padding: 10px;
+ height: 600px;
+
+}
+
+
+.resume_column2 {
+ float: left;
+ width: 10%;
+ padding: 10px;
+ height: 600px;
+
+}
+
+
+.resume_column3 {
+ float: left;
+ width: 45%;
+ padding: 10px;
+ height: 600px;
+}
+
+
+.reference_column {
+ float: left;
+ width: 33.33%;
+ padding: 10px;
+ height: 600px;
+
+
+}
+
+.hireMe_row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+.portfolio_row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.blog_row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+.resume_row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+.reference_row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+#wrapperButton  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.button {
+   background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  color: #222222;
+  padding: 0px 35px;
+
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.buttonContactMe {
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  color: #222222;
+  padding: 0px 35px;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 28px;
+  background-size: 200% auto;
+}
+
+
+.indexbutton {
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  border: none;
+  color: #222222;
+  padding: 0px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: roboto;
+  background-size: 200% auto;
+
+}
+
+
+
+
+
+
+
+/*For Sign up page*/
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  background-color: #d9d9d9;
+  color: #8c8c8c;
+  position: relative;
+  padding: 8px 18px;
+  bottom: 30;
+  margin-right: 10px;
+  font-family: roboto;
+
+}
+
+.signupbtn {
+ 
+  position: relative;
+  padding: 8px 18px;
+  background-color: #3046fc;
+  color: white;
+  bottom: 30;
+  font-family: roboto;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: right;
+  width: 20%;
+
+}
+
+.signUpcontainer {
+  padding: 16px;
+
+}
+
+.logincontainer {
+  padding: 16px;
+
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  left: 400;
+  top: 0;
+  width: 50%; 
+  height: 93%; 
+  overflow: hidden; 
+  padding-top: 18px;
+
+
+}
+
+
+
+
+.loginmodal {
+  display: none; 
+  position: fixed; 
+  left: 400;
+  top: 0;
+  width: 50%; 
+  height: 54%; 
+  overflow: hidden; 
+  padding-top: 18px;
+
+}
+
+
+.modal-content {
+  background-color: white;
+  margin: 5% 3% 15% auto; 
+  border: 1px solid;
+  width: 80%;
+  height:700px;
+
+
+}
+
+.loginmodal-content {
+  background-color: white;
+  margin: 5% 3% 15% auto; 
+  border: 1px solid;
+  width: 80%;
+  height:700px;
+
+}
+
+.hrTop {
+  border: 1px solid #e6e6e6;
+  margin-bottom: -10px;
+  widhth:100%;
+}
+
+
+.close {
+  position:relative;
+  top:10px;
+  float:right;
+  font-size: 20px;
+  font-weight: bold;
+  color:#bfbfbf;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.lineedit{
+  position:relative;
+  top:40px;
+  z-index: -1;
+  border: 1px solid;
+}
+
+
+.signUpTable{
+  margin-top: -10px;
+  border-radius: 25px;
+
+}
+
+.loginTable{
+  margin-top: -10px;
+
+
+}
+
+
+
+
+
+
+.hrbottom {
+  margin-top: 30px;
+  border: 1px solid #e6e6e6;              
+  margin-bottom: 50px;
+}
+
+.headBox {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+hr {
+  flex: 1;
+  border: 1px solid #d9d9d9;
+  height: 1px;
+  background: silver;
+  
+}
+
+
+
+/*Resume*/
+
+.vl {
+  border-left: 5px solid #cccccc;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:80px;
+  top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+
+
+.v2 {
+  border-left: 5px solid #cccccc;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:156px;
+  top: 0;
+}
+
+
+.v3 {
+  border-left: 5px solid #cccccc;
+  height: 69px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:242px;
+  top: 0;
+}
+
+
+.v4 {
+  border-left: 5px solid #cccccc;
+  height: 65px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:335px;
+  top: 0;
+}
+
+
+.v5 {
+  border-left: 5px solid #cccccc;
+  height: 65px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:430px;
+  top: 0;
+}
+
+.v6 {
+  border-left: 5px solid #cccccc;
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:525px;
+  top: 0;
+}
+
+
+
+.maintext {
+  padding-left: 37px;
+  margin-top: 60px;
+}
+
+.maintext2 {
+  padding-left: 37px;
+  margin-top: 65px;
+}
+
+
+.maintext3 {
+  padding-left: 37px;
+  margin-top: 76px;
+}
+
+
+.maintext4 {
+  padding-left: 37px;
+  margin-top: 75px;
+}
+
+.maintext5 {
+  padding-left: 37px;
+  margin-top: 75px;
+}
+
+
+
+
+
+.arrowBox1{
+  width:500px;
+  height:45px;
+  background-color: #3333ff;
+  position:fixed;
+  top: 3em;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 83px;
+  margin-left: 100px;
+  color:white;
+}
+
+.arrowBox11{
+  width:500px;
+  height:45px;
+  background-color: #e6e6ff;
+  position:fixed;
+  top: 3em;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 128px;
+  margin-left: 100px;
+
+}
+
+
+.arrowBox1:after{
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid transparent;
+  border-left: 7px solid #3333ff;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  left:100%;
+  top:50%;
+  margin-top: -11px;
+
+
+}
+
+
+
+.arrowBox2{
+  width:500px;
+  height:57px;
+  background-color: #3333ff;
+  position:fixed;
+  top: 3em;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 260px;
+  margin-left: 100px;
+  color:white;
+}
+
+.arrowBox21{
+  width:500px;
+  height:50px;
+  background-color: #e6e6ff;
+  position:fixed;
+  top: 3em;
+  padding: 14px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 312px;
+  margin-left: 100px;
+
+}
+
+
+
+.arrowBox2:after{
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid transparent;
+  border-left: 7px solid #3333ff;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  left:100%;
+  top:50%;
+  margin-top: -15px;
+
+
+}
+
+
+
+.arrowBox3{
+  width:500px;
+  height:57px;
+  background-color: #3333ff;
+  position:fixed;
+  top: 3em;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 440px;
+  margin-left: 100px;
+  color:white;
+}
+
+.arrowBox31{
+  width:500px;
+  height:50px;
+  background-color: #e6e6ff;
+  position:fixed;
+  top: 3em;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 490px;
+  margin-left: 100px;
+
+}
+
+
+
+.arrowBox3:after{
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid transparent;
+  border-left: 7px solid #3333ff;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  left:100%;
+  top:50%;
+  margin-top: -10px;
+
+
+}
+
+
+
+.arrowBox4{
+  width:500px;
+  height:50px;
+  background-color: #3333ff;
+  position:fixed;
+  top: 3em;
+  left:55%;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 162px;
+  margin-right: 100px;
+  color:white;
+}
+
+.arrowBox41{
+  width:500px;
+  height:50px;
+  background-color: #e6e6ff;
+  position:fixed;
+  top: 3em;
+  left:55%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 210px;
+  margin-right: 100px;
+
+}
+
+
+
+.arrowBox4:after{
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid #3333ff;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  right:100%;
+  top:50%;
+  margin-top: -10px;
+
+
+}
+
+
+.arrowBox5{
+  width:500px;
+  height:50px;
+  background-color: #3333ff;
+  position:fixed;
+  top: 6.5%;
+  left:55%;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 353px;
+  margin-right: 100px;
+  color:white;
+}
+
+.arrowBox51{
+  width:500px;
+  height:50px;
+  background-color: #e6e6ff;
+  position:fixed;
+  top: 3em;
+  left:55%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border-style: 1px solid;
+  margin-top: 403px;
+  margin-right: 100px;
+
+}
+
+
+
+.arrowBox5:after{
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid #3333ff;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  right:100%;
+  top:50%;
+  margin-top: -10px;
+
+
+}
+
+
+
+/* Referecnes */
+
+.referenceBoxBottom {
+  background-color: white;
+  width: 400px;
+  height : 180px;
+  border: 1px solid;
+  padding: 50px;
+  margin: 8px;
+  position: absolute;
+  top: 380px;
+}
+
+
+.referenceBoxTop {
+  background-color: white;
+  width: 400px;
+  height : 180px;
+  border: 1px solid;
+  padding: 50px;
+  margin: 8px;
+  position: absolute;
+  top: 130px;
+
+}
+
+
+.referenceImage1{
+  border-radius: 75%;
+  position: relative;
+  bottom:200;
+  left:125;
+}
+
+.referenceImage2{
+  border-radius: 75%;
+  position: relative;
+  bottom:204;
+  left:125;
+}
+
+.referenceImage3{
+  border-radius: 75%;
+  position: relative;
+  bottom:203;
+  left:125;
+}
+
+.referenceImage4{
+  border-radius: 75%;
+  position: relative;
+  bottom:203;
+  left:125;
+}
+
+.referenceImage5{
+  border-radius: 75%;
+  position: relative;
+  bottom:202;
+  left:125;
+}
+
+.referenceImage6{
+  border-radius:75%;
+  position: relative;
+  bottom:203;
+  left:125;
+}
+
+.referenceBoxTop .referenceName{
+  text-align: center;
+  margin-top: -15px;
+}
+
+
+.referenceBoxBottom .referenceNameBottom{
+  text-align: center;
+  margin-top: -15px;
+}
+
+.referenceBoxTop .referenceRole1{
+  text-align: center; 
+  color: #a6a6a6;
+  margin-top: -35px;
+  font-size: 12px;
+
+}
+
+.referenceBoxBottom .referenceRoleBottom1{
+  text-align: center; 
+  color: #a6a6a6;
+  margin-top: -35px;
+  font-size: 12px;
+
+}
+
+.referenceBoxTop .referenceMessage{
+  font-size: 12px;
+  margin-top: 11px;
+  line-height: 18px;
+}
+
+
+.referenceBoxBottom .referenceMessageBottom{
+  font-size: 12px;
+  margin-top: 11px;
+  line-height: 18px;
+}
+
+/*
+Button Navigator*/
+.buttNavigator {
+  border: 1px;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  float:right;
+  margin-right:30px;
+  margin-top: 40px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222
+}
+
+.buttNavigator:hover {
+  color:white;
+}
+
+
+.buttNavigatorResume {
+  border: 1px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  float:right;
+  margin-right:30px;
+  margin-top: -60px;
+}
+
+.buttNavigatorHireMe {
+  border: 1px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  float:right;
+  margin-right:30px;
+  margin-top: -80px;
+}
+
+
+.buttNavigatorPortfolio {
+  border: 1px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  float:right;
+  margin-right:30px;
+  margin-top: 800px;
+}
+
+.buttNavigatorSkills {
+  border: 1px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  float:right;
+  margin-right:10px;
+  margin-top: 290px;
+}
+
+.buttNavigatorSkills:hover {
+  color:white;
+}
+
+.buttNavigatorResume:hover {
+  color:white;
+}
+
+.buttNavigatorContact {
+  border: 1px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  float:right;
+  margin-right:30px;
+  margin-top: 5px;
+}
+
+.buttNavigatorContact:hover {
+  color:white;
+}
+
+
+.buttonImage{
+  width:25px; 
+  height:25px;
+  position: relative;
+  left: -13px;
+}
+
+
+
+
+
+/*Skills*/
+.skillscolumn {
+  float: left;
+  padding: 30px;
+  margin-top: 30px;
+  height: 30vh ; 
+}
+
+.skillscolumn1 {
+  position: relative;
+  left:-10;
+  float: right;
+  padding: 30px;
+  margin-top: 30px;
+  height: 30vh ; 
+}
+
+
+.leftcol {
+  width: 50%;
+}
+
+
+.left {
+  width: 15%;
+  
+}
+
+
+.skillBar1
+{
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: -15px;
+  
+}
+
+.skillBar2
+{
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 10px;
+  
+}
+
+.skillBar3
+{
+  background-color:#e6e6e6;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 15px;
+  
+}
+
+.skillBar4
+{
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 20px;
+  
+}
+
+
+.skillBar5
+{
+  background-color: #e6e6e6;
+  position: relative;
+  top:4;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 5px;
+  
+}
+
+
+.skillBar6
+{
+  background-color: #e6e6e6;
+  position: relative;
+  top:10;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 5px;
+  
+}
+
+
+.skillBar7
+{
+  background-color: #e6e6e6;
+  position: relative;
+  top:19;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 5px;
+  
+}
+.skillBar8
+{
+  background-color: #e6e6e6;
+  position: relative;
+  top:30;
+  border-radius: 0px;
+  height: 34px;
+  margin-top: 5px;
+  
+}
+
+
+
+
+.progressBar1
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color: #1a53ff;
+  width:65%;
+  font-family: roboto;
+  padding-top: 6px;
+}
+
+.progressBar2
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color: #29a329;
+  width:65%;
+  font-family: roboto;
+  padding-top: 6px;
+  
+}
+
+.progressBar3
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color: #00ccff;
+  width:70%;
+  font-family: roboto;
+  padding-top: 6px;
+}
+
+.progressBar4
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color: #ff471a;
+  width:90%;
+  font-family: roboto;
+  padding-top: 6px;
+}
+
+.progressBar5
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color:#1a53ff;
+  width: 65%;
+  font-family: roboto;
+  padding-top: 6px;
+}
+
+.progressBar6
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color:#29a329;
+  width:70%;
+  font-family: roboto;
+  padding-top: 6px;
+  
+}
+
+
+.progressBar7
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color: #00ccff;
+  width:90%;
+  font-family: roboto;
+  padding-top: 6px;
+  
+}
+
+
+.progressBar8
+{
+  padding: 0.lem 16px;
+  border-radius: 0px;
+  color: #fff;
+  height: 34px;
+  background-color: #ff471a;
+  width:60%;
+  font-family: roboto;
+  padding-top: 6px;
+}
+
+
+
+.rightcol {
+  width: 50%
+}
+
+.skillLevel {
+  float: right;
+  position: relative;
+  bottom: 25;
+  font-size: 17px;
+  padding-right: 4px;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+
+
+.skillLevel2 {
+  float: right;
+  position: relative;
+  bottom: 19;
+  font-size: 17px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  font-weight: 400;
+}
+
+.skillLevel3 {
+  float: right;
+  position: relative;
+  bottom: 11;
+  font-size: 17px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  font-weight: 400;
+}
+
+
+.skillLevel4 {
+  float: right;
+  position: relative;
+  bottom: 0;
+  font-size: 17px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  font-weight: 400;
+}
+
+
+.language{
+  text-align: center;
+  position: relative;
+  bottom: -135;
+  font-size: 18px;
+}
+
+
+/* Circular Progress Bar */
+
+.circularContainer{
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.circularContainer .box{
+  width: 25%;
+  float: left;
+}
+
+.circularContainer .box p{
+  text-align: center;
+  position: relative;
+  top:150;
+}
+
+.circularContainer .box .chart{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 150px;
+  top:150;
+}
+
+.circularContainer .box canvas{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+
+
+.portfolioHeadings{
+  text-align: center;
+  word-spacing: 38px;
+  margin-top: 50px;
+}
+
+.blogHeadings{
+  text-align: center;
+  margin-top: 0.8%;
+}
+
+
+::placeholder{
+  font-family: roboto;
+  font-size: 15px;
+  color:#777777;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: rajdhani, sans-serif;
+}
+
+
+.hireMeText{
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
+.adminButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50px;
+  cursor: pointer;
+}

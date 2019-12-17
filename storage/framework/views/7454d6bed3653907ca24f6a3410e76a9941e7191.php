@@ -1,0 +1,2 @@
+<p>Hi, This is <?php echo e($data['name']); ?></p>
+<p>My Message to you:<?php echo e($data['message']); ?></p><?php /**PATH C:\xampp\htdocs\Laravel\Thiagarajan_Portfolio\resources\views/dynamic_email_template.blade.php ENDPATH**/ ?>
